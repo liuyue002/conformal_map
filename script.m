@@ -19,6 +19,26 @@ make_animation(f,fname);
 f=@(x,y) (x+1i*y).^4;
 fname = 'z^4';
 make_animation(f,fname);
+f=@(x,y) 1./(x+1i*y);
+fname = 'z^{-1}';
+make_animation(f,fname);
 f=@(x,y) 1./((x+1i*y).^2-1);
 fname = '(z^2-1)^{-1}';
+make_animation(f,fname);
+
+f=@(x,y) x-1i*y;
+fname = 'z^*';
+make_animation(f,fname);
+f=@(x,y) tan(x+1i*y);
+fname = 'tan(z)';
+make_animation(f,fname);
+f=@(x,y) exp(-x-1i*y);
+fname = 'exp(-z)';
+make_animation(f,fname);
+f=@(x,y) exp(1./(x+1i*y));
+fname = 'exp(z^{-1})';
+make_animation(f,fname);
+
+f=@(x,y) 1./(exp(1./(x+1i*y))+2);
+fname = '(exp(z^{-1})+2)^{-1}';
 make_animation(f,fname);
