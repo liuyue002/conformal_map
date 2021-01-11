@@ -2,7 +2,7 @@ Examples of outputs.
 
 Observations and questions:
 
-1, Look at '1÷(z+i).gif' and '(z-i)÷(z+i).gif', which are examples of Mobius maps. Observe how circles and lines are mapped to circles and lines.
+1, Look at 'z^{-1}.gif' and '(z-i)÷(z+i).gif', which are examples of Mobius maps. Observe how circles and lines are mapped to circles and lines.
 
 2, Look at 'z^{-1}.gif', and observe that the image is flipped around near the pole at the origin. How does this relates to the Argument Principle?
 
