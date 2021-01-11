@@ -79,4 +79,6 @@ for t=0:0.01:1
     end
     fprintf('t=%f done\n',t);
 end
+% pause on the final image
+imwrite(imind,cm,giffile,'gif','WriteMode','append','DelayTime',5);
 end

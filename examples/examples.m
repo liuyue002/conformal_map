@@ -1,3 +1,4 @@
+addpath('..');
 f=@(x,y) cos(x+1i*y);
 fname = 'cos(z)';
 transform_image(f,fname);
